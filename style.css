@@ -1,0 +1,16 @@
+body {
+    background: url('white-crumpled-paper-texture-background-design-space-white-tone.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Adjust the color and opacity as needed */
+    z-index: -1; /* Ensure the overlay is behind the content */
+}
