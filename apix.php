@@ -68,7 +68,7 @@
 
                     // Your existing generateQuery function here...
                     function generateQuery($msg) {
-                        $apiKey = 'AIzaSyDcjD3pFpA7ui8iuLzXhpWEAqwT_te0aYw'; 
+                        $apiKey = ' '; //Enter your api key from google studio 
                         $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" . $apiKey;
                         // Add your table structure description here...
                         //$tableStructure = "The result_management database consists of several tables, each with its own structure and relationships.
@@ -154,7 +154,7 @@
 
                     // Function to generate result in chatbot-like format
                     function generateResult($phpres, $msg) {
-                        $apiKey = 'AIzaSyD42C3bhH94NvFY8yp_WOrvXQmsB3Mi0qk';
+                        $apiKey = '  ';//Enter your api key from google studio 
                         $apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=" . $apiKey;
                         $phpres_str = is_array($phpres) ? "Here are the details:\n" : $phpres;
                         if (is_array($phpres)) {
